@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 3em;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2em;
+    border: 1px solid hsl(0, 0%, 12%);
+    border-radius: 5%;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.container img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.container h3 {
+    font-size: 2em;
+    color: hsl(0, 0%, 100%);
+    margin: 0.4em 0;
+}
+
+.container h4 {
+    color: hsl(75, 94%, 57%);
+    margin: 0;
+}
+
+.container p {
+    color: hsl(0, 0%, 100%);
+    margin: 2em 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social {
+    margin: 0.5em;
+    padding: 1rem;
+    width: 80%;
+    border: 1px solid hsl(0, 0%, 20%);
+    border-radius: 4%;
+    font-size: 1em;
+    text-align: center;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.social:active {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+.attribution {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+[class*="social"] {
+    width: 100%;
+}
